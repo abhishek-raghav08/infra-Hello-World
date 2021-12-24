@@ -55,7 +55,7 @@ jobs:
       - run:
           name: Delete on fail
           command: return 1
-            - destroy_environment             
+      - destroy_environment             
   configure_infrastructure: 
     docker:
       - image: python:3.7-alpine3.11
